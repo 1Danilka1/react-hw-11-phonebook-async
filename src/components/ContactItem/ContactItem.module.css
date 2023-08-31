@@ -1,0 +1,16 @@
+.btn {
+    padding: 3px 10px;
+    background-color: lightcoral;
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+.btn:active {
+    background-color: azure;
+}
+
+.item {
+    margin-bottom: 10px;
+}

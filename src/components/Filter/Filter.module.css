@@ -1,0 +1,10 @@
+.title {
+    font-family: 'roboto';
+}
+
+.input_filter {
+    font-family: 'roboto';
+    border-radius: 5px;
+    width: 170px;
+    padding: 2px;
+}
