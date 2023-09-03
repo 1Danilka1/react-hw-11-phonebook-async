@@ -6,7 +6,7 @@ export default function ContactForm() {
   const dispatch = useDispatch();
 
   const handleSubmit = event => {
-    event.preventDefault();
+    event.preventDefault(); 
     const form = event.target;
     dispatch(addContact(form.elements.name.value, form.elements.number.value ));
     form.reset();
