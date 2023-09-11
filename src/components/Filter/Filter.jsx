@@ -1,8 +1,8 @@
-export default function SearchFilter({ onFilterChange }) {
+export default function SearchFilter({ onChange }) {
   return (
     <div>
       <label htmlFor="filter">Find contacts by name</label>
-      <input type="text" name="filter" id="filter" onChange={onFilterChange} />
+      <input type="text" name="filter" id="filter" onChange={onChange} />
     </div>
   );
 }

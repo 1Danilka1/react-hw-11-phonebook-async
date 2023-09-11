@@ -30,7 +30,7 @@ export default function App() {
               <h1>Phonebook</h1>
               <ContactForm />
               <h2>Contacts</h2>
-              <Filter onFilterChange={e => setFilter(e.currentTarget.value)}/>
+              <Filter onChange={e => setFilter(e.currentTarget.value)}/>
               {isLoading && !error && <b>Request in progress...</b>}
               <ContactsList/>
             </div>
